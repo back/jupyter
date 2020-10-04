@@ -84,7 +84,6 @@ for j in range(w):
 #print(room_walls)
 #print(room_codes)
 #print(room_sizes)
-#print(room_codes_size)
 
 with open(fileName + '.out', 'w') as fout:
     fout.write('%s\n' % len(room_sizes))
